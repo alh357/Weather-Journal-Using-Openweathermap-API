@@ -2,11 +2,17 @@
   font-family: jak;
   src: url("PlusJakartaSans-VariableFont_wght.ttf");
 }
+
+* {
+  transition: all 0.2s ease-in-out;
+  box-sizing: border-box;
+}
+
 body {
   font-family: jak;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+
   background-color: rgb(255, 247, 247);
 }
 h1 {
