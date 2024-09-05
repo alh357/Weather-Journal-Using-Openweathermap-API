@@ -314,7 +314,7 @@ async function addCard(e) {
         i.classList.add("ent");
         entry.appendChild(i);
       }
-      entries.appendChild(entry);
+      entries.insertBefore(entry, entries.firstChild);
     } else {
       p = document.createElement("p");
       p.textContent = task[id].status;
