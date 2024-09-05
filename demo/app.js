@@ -325,6 +325,8 @@ async function addCard(e) {
         p.remove();
       }, 3000);
     }
+    note.value = "";
+    city.value = "";
     exes.forEach((i) => {
       i.addEventListener("click", () => {
         console.log("ala");
@@ -332,6 +334,7 @@ async function addCard(e) {
       });
     });
   }
+
   console.log(task);
 }
 
